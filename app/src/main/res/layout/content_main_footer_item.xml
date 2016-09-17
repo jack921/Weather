@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+        <ImageView
+            android:id="@+id/night_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/night_cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_icon"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="6dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/night_cloudstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_cloud"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/night2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+        <ImageView
+            android:id="@+id/night_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/night_cloud2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_icon2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="6dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/night_cloudstatus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_cloud2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/night3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+        <ImageView
+            android:id="@+id/night_icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night3"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/night_cloud3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_icon3"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="6dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/night_cloudstatus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_cloud3"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/night4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+        <ImageView
+            android:id="@+id/night_icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night4"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/night_cloud4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_icon4"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="6dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/night_cloudstatus4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_cloud4"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/night5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+        <ImageView
+            android:id="@+id/night_icon5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night5"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/night_cloud5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_icon5"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="6dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/night_cloudstatus5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_cloud5"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/night6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+        <ImageView
+            android:id="@+id/night_icon6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/night_cloud6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_icon6"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="6dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/night_cloudstatus6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/night_cloud6"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="5dp"
+            android:text="--"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

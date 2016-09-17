@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/notification">
+        <CheckBoxPreference
+            android:key="notification_remind"
+            android:title="@string/notification_remind"/>
+        <Preference
+            android:key="notification_update"
+            android:title="@string/notification_update"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

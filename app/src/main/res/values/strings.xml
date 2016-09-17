@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Jack天气</string>
+    <string name="weather_about">天气相关</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="cancal">取消</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="getdata_error">获取数据失败</string>
+
+    <string name="add_city">添加城市</string>
+    <string name="select_city">选择城市</string>
+    <string name="select_province">选择省份</string>
+    <string name="select_district">选择市县</string>
+
+    <string name="city_manager">城市管理</string>
+    <string name="remind_city">提醒城市</string>
+
+    <!-- 更新城市管理类 -->
+    <string name="update_manager_city">update.manager.city</string>
+    <string name="update_main_city">update.main.city</string>
+    <string name="remindcitysetting">提醒城市设置</string>
+
+    <!--通知栏设置-->
+    <string name="notification">通知栏</string>
+    <string name="notification_remind">启动通知栏提醒</string>
+    <string name="notification_update">设置刷新时间</string>
+
+    <string name="version_explain">在一次偶尔的机会打开手机的自带的天气软件，
+        突然就出现的一个念头就是自己也弄一个不输给手机自带的天气软件的念头，
+        于是经过不知多少天下班晚上12点之后的编码，终于1.0出来啦，可能还有点不完善不过以后还会继续更新新的东西，</string>
+
+    <string name="born">诞生的原因</string>
+    <string name="code">得到源码</string>
+    <string name="mygithub">https://github.com/jack921/Weather</string>
+
+
+</resources>

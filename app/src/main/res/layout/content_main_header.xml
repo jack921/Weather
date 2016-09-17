@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+
+                    <TextView
+                        android:id="@+id/wendu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="110sp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/text_color"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="23dp"
+                        android:layout_toRightOf="@+id/wendu"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/text_color"
+                        android:text="o"/>
+
+                    <TextView
+                        android:id="@+id/weatherstatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/wendu"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="30dp"
+                        android:textColor="@color/text_color"
+                        android:textSize="15dp"
+                        android:text="晴"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/text_color"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/weather_tigan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_color"
+                            android:text="体感温度30"/>
+
+                        <TextView
+                            android:id="@+id/weather_shidu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_color"
+                            android:layout_marginTop="5dp"
+                            android:text="湿度74 南风3级"/>
+
+                        <TextView
+                            android:id="@+id/weather_zhishu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_color"
+                            android:layout_marginTop="5dp"
+                            android:text="75良"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+    </RelativeLayout>

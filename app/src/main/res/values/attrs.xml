@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="TitleHeight" format="dimension" />
+    <attr name="TitlePadding" format="dimension" />
+    <attr name="TitleTextSize" format="dimension" />
+    <attr name="TitleBj" format="reference|color" />
+
+    <attr name="CircleTextSize" format="dimension"/>
+    <attr name="MinLineColor" format="color"/>
+    <attr name="MaxLineColor" format="color"/>
+    <attr name="CircleTextColor" format="color"/>
+    <attr name="CircleColor" format="color"/>
+    <attr name="ChartAlpha" format="integer"/>
+    <attr name="StrokeWidth" fotmat="integer"/>
+
+    <attr name="src" format="reference"/>
+
+    <declare-styleable name="WeatherLineChart">
+        <attr name="CircleTextSize"/>
+        <attr name="MinLineColor"/>
+        <attr name="MaxLineColor"/>
+        <attr name="CircleTextColor"/>
+        <attr name="CircleColor"/>
+        <attr name="ChartAlpha"/>
+        <attr name="StrokeWidth"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScrollBlurView">
+        <attr name="src"/>
+    </declare-styleable>
+
+
+</resources>
